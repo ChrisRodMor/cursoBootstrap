@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!--Container-->
+        <div class="container">
+
+            <form action="">
+                <div class="mt-5">
+                    <label class="form-label" for="name">Normal</label>
+                    <input class="form-control" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Mas grande</label>
+                    <input class="form-control form-control-lg" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Mas pequeño</label>
+                    <input class="form-control form-control-sm" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Deshabilitado</label>
+                    <input disabled class="form-control" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Solo lectura</label>
+                    <input disabled readonly value="Porfavor ingrese su nombre" class="form-control" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Solo texto(input)</label>
+                    <input disabled readonly value="Porfavor ingrese su nombre" class="form-control-plaintext" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5 row">
+                    <label class="col-form-label col-2" for="name">Solo texto Fila</label>
+                    <div class="col-5">
+                        <input disabled readonly value="Porfavor ingrese su nombre" class="form-control-plaintext" placeholder="Porfavor ingrese su nombre" name="name" type="text" id="name">
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="name">Sin placeholder</label>
+                    <input class="form-control" name="name" type="text" id="name">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="email">Correo</label>
+                    <input class="form-control" placeholder="elpepe@gmail.com" name="email" type="email" id="email">
+                </div>
+                <div class="mt-5">
+                    <label class="form-label" for="description">Descripcion</label>
+                    <textarea class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+            
+        </div>
+    </body>
+    
+</html>
